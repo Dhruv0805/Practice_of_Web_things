@@ -11,9 +11,6 @@ const getuser = async ()=>{
     return data;
 }
 
-
-
-
 imgteg.addEventListener("click", () => {
     getuser().then((imgurl) => {
         imgteg.setAttribute("src", imgurl.message);
